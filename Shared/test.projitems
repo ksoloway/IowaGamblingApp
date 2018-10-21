@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{17C9B69A-5E34-4915-8B5A-DAD27115F41D}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>test</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <BundleResource Include="$(MSBuildThisFileDirectory)Resources\GameScene.sks" />
+    <BundleResource Include="$(MSBuildThisFileDirectory)Resources\Spaceship.png" />
+    <BundleResource Include="$(MSBuildThisFileDirectory)Resources\card4.png" />
+    <BundleResource Include="$(MSBuildThisFileDirectory)Resources\card3.png" />
+    <BundleResource Include="$(MSBuildThisFileDirectory)Resources\card2.png" />
+    <BundleResource Include="$(MSBuildThisFileDirectory)Resources\card1.png" />
+    <BundleResource Include="$(MSBuildThisFileDirectory)Resources\start.png" />
+    <BundleResource Include="$(MSBuildThisFileDirectory)Resources\Instructions.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)GameViewController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GameViewController.designer.cs">
+      <DependentUpon>GameViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)GameScene.cs" />
+  </ItemGroup>
+</Project>
