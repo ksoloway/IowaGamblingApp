@@ -197,27 +197,28 @@ namespace SpriteKitGame
             var moveDest = new CGPoint(); //the destination of the movement
             foreach (var touch in touches)
             {
+
                 // logic for different moving card based on the move flag
                 switch (move)
                 {
                     case 1:
                         moveDest = new CGPoint(Frame.Width / 2.3, Frame.Height / 1.3);
-                        card1move.RunAction(SKAction.MoveTo(moveDest, 5));
+                        card1move.RunAction(SKAction.MoveTo(moveDest, 0.3));
                         removelist[0] = card1move;
                         break;
                     case 2:
                         moveDest = new CGPoint(Frame.Width / 1.7, Frame.Height / 1.3);
-                        card2move.RunAction(SKAction.MoveTo(moveDest, 5));
+                        card2move.RunAction(SKAction.MoveTo(moveDest, 0.3));
                         removelist[0] = card2move;
                         break;
                     case 3:
                         moveDest = new CGPoint(Frame.Width / 2.3, Frame.Height / 2.2);
-                        card3move.RunAction(SKAction.MoveTo(moveDest, 5));
+                        card3move.RunAction(SKAction.MoveTo(moveDest, 0.3));
                         removelist[0] = card3move;
                         break;
                     case 4:
                         moveDest = new CGPoint(Frame.Width / 1.7, Frame.Height / 2.2);
-                        card4move.RunAction(SKAction.MoveTo(moveDest, 5));
+                        card4move.RunAction(SKAction.MoveTo(moveDest, 0.3));
                         removelist[0] = card4move;
                         break;
                     default:
