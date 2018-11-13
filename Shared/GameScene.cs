@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 using CoreGraphics;
 using Foundation;
@@ -113,7 +113,7 @@ namespace SpriteKitGame
                 else // logic for card decks when they are touched
                 {
                     // card deck 1 (blue)
-                    if ((sprite = GetNodeAtPoint(location)).Equals(card1))
+                    if ((sprite = GetNodeAtPoint(location)).Equals(card1) || sprite.Equals(card1move) )
                     {
                         removelist[0] = card1move;
                         RemoveChildren(removelist);
@@ -123,7 +123,7 @@ namespace SpriteKitGame
                         AddChild(card1move); //add the moving card 1 
                     }
                     // card deck 2 (green)
-                    else if ((sprite = GetNodeAtPoint(location)).Equals(card2))
+                    else if ((sprite = GetNodeAtPoint(location)).Equals(card2) || sprite.Equals(card2move))
                     {
                         removelist[0] = card2move;
                         RemoveChildren(removelist);
@@ -133,7 +133,7 @@ namespace SpriteKitGame
                         AddChild(card2move);
                     }
                     // card deck 3 (blue)
-                    else if ((sprite = GetNodeAtPoint(location)).Equals(card3))
+                    else if ((sprite = GetNodeAtPoint(location)).Equals(card3) || sprite.Equals(card3move))
                     {
                         removelist[0] = card3move;
                         RemoveChildren(removelist);
@@ -143,7 +143,7 @@ namespace SpriteKitGame
                         AddChild(card3move);
                     }
                     // card deck 4 (purple)
-                    else if ((sprite = GetNodeAtPoint(location)).Equals(card4))
+                    else if ((sprite = GetNodeAtPoint(location)).Equals(card4) || sprite.Equals(card4move))
                     {
                         removelist[0] = card4move;
                         RemoveChildren(removelist);
@@ -203,22 +203,38 @@ namespace SpriteKitGame
                 {
                     case 1:
                         moveDest = new CGPoint(Frame.Width / 2.3, Frame.Height / 1.3);
+<<<<<<< HEAD
                         card1move.RunAction(SKAction.MoveTo(moveDest, 0.3));
+=======
+                        card1move.RunAction(SKAction.MoveTo(moveDest, 0.2));
+>>>>>>> df20b8c... changed speed of cards
                         removelist[0] = card1move;
                         break;
                     case 2:
                         moveDest = new CGPoint(Frame.Width / 1.7, Frame.Height / 1.3);
+<<<<<<< HEAD
                         card2move.RunAction(SKAction.MoveTo(moveDest, 0.3));
+=======
+                        card2move.RunAction(SKAction.MoveTo(moveDest, 0.2));
+>>>>>>> df20b8c... changed speed of cards
                         removelist[0] = card2move;
                         break;
                     case 3:
                         moveDest = new CGPoint(Frame.Width / 2.3, Frame.Height / 2.2);
+<<<<<<< HEAD
                         card3move.RunAction(SKAction.MoveTo(moveDest, 0.3));
+=======
+                        card3move.RunAction(SKAction.MoveTo(moveDest, 0.2));
+>>>>>>> df20b8c... changed speed of cards
                         removelist[0] = card3move;
                         break;
                     case 4:
                         moveDest = new CGPoint(Frame.Width / 1.7, Frame.Height / 2.2);
+<<<<<<< HEAD
                         card4move.RunAction(SKAction.MoveTo(moveDest, 0.3));
+=======
+                        card4move.RunAction(SKAction.MoveTo(moveDest, 0.2));
+>>>>>>> df20b8c... changed speed of cards
                         removelist[0] = card4move;
                         break;
                     default:

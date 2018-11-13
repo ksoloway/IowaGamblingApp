@@ -7,3 +7,12 @@
 /Users/TL/Projects/test/Mac/obj/x86/Debug/test.Mac.csproj.CoreCompileInputs.cache
 /Users/TL/Projects/test/Mac/obj/x86/Debug/test.Mac.exe
 /Users/TL/Projects/test/Mac/obj/x86/Debug/test.Mac.pdb
+/Users/kevinsoloway/Documents/GitHub/IowaApp/Mac/bin/Debug/test.Mac.exe
+/Users/kevinsoloway/Documents/GitHub/IowaApp/Mac/bin/Debug/test.Mac.pdb
+/Users/kevinsoloway/Documents/GitHub/IowaApp/Mac/obj/x86/Debug/actool/asset-manifest.plist
+/Users/kevinsoloway/Documents/GitHub/IowaApp/Mac/obj/x86/Debug/ibtool-manifests/MainMenu.nib
+/Users/kevinsoloway/Documents/GitHub/IowaApp/Mac/obj/x86/Debug/ibtool/MainMenu.nib
+/Users/kevinsoloway/Documents/GitHub/IowaApp/Mac/obj/x86/Debug/test.Mac.csprojAssemblyReference.cache
+/Users/kevinsoloway/Documents/GitHub/IowaApp/Mac/obj/x86/Debug/test.Mac.csproj.CoreCompileInputs.cache
+/Users/kevinsoloway/Documents/GitHub/IowaApp/Mac/obj/x86/Debug/test.Mac.exe
+/Users/kevinsoloway/Documents/GitHub/IowaApp/Mac/obj/x86/Debug/test.Mac.pdb

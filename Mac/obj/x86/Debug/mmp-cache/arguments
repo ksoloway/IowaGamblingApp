@@ -3,7 +3,7 @@
 /Library/Frameworks/Xamarin.Mac.framework/Versions/5.0.0.0/lib/mmp/mmp.exe \
 	/verbose \
 	/debug \
-	/output:/Users/TL/Projects/test/Mac/bin/Debug/ \
+	/output:/Users/kevinsoloway/Documents/GitHub/IowaApp/Mac/bin/Debug/ \
 	/name:test.Mac \
 	'/profile:Xamarin.Mac,Version=v2.0,Profile=Mobile' \
 	/arch:x86_64 \
@@ -14,7 +14,7 @@
 	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/System.Core.dll \
 	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/System.dll \
 	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/Xamarin.Mac.dll \
-	/root-assembly:/Users/TL/Projects/test/Mac/bin/Debug/test.Mac.exe \
+	/root-assembly:/Users/kevinsoloway/Documents/GitHub/IowaApp/Mac/bin/Debug/test.Mac.exe \
 	/sdkroot:/Applications/Xcode.app/Contents/Developer \
-	--cache:/Users/TL/Projects/test/Mac/obj/x86/Debug/mmp-cache \
-	@/Users/TL/Projects/test/Mac/obj/x86/Debug/response-file.rsp \
+	--cache:/Users/kevinsoloway/Documents/GitHub/IowaApp/Mac/obj/x86/Debug/mmp-cache \
+	@/Users/kevinsoloway/Documents/GitHub/IowaApp/Mac/obj/x86/Debug/response-file.rsp \

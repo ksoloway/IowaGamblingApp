@@ -1,4 +1,4 @@
-/Users/kevinsoloway/Documents/IowaGamblingApp/iOS/bin/iPhoneSimulator/Debug/test.IOS.exe
+/Users/kevinsoloway/Documents/GitHub/IowaApp/iOS/bin/iPhoneSimulator/Debug/test.IOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/lib/mono/Xamarin.iOS/mscorlib.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.0.0.15/lib/mono/Xamarin.iOS/System.dll
